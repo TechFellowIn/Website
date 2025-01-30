@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -23,7 +23,7 @@ body{
     padding-top: 6rem;
     display: inline-block;
     font-size: 3.5rem;
-    color: #002e5f;
+    color: #6f4f28; /* Coffee brown color */
     position: relative;
     letter-spacing: .2rem;
 }
@@ -33,13 +33,13 @@ body{
     position: absolute;
     height: 2.5rem;
     width: 2.5rem;
-    border-top: .4rem solid #002e5f;
-    border-left: .4rem solid #002e5f;
+    border-top: .4rem solid #3e2723; /* Darker coffee brown */
+    border-left: .4rem solid #3e2723; /* Darker coffee brown */
 }
 
 .faq .heading::before, .faq .heading::after{
-    border-top: .4rem solid #00bfff;
-    border-left: .4rem solid #00bfff;
+    border-top: .4rem solid #4e3629; /* Lighter coffee brown */
+    border-left: .4rem solid #4e3629; /* Lighter coffee brown */
 }
 
 .heading::before, .clients .section-header h2::before, .section-head h1::before, .testimonials .section-header h2::before, .section-head-1 h4::before{
@@ -59,7 +59,7 @@ body{
     border-radius: 5rem;
     background: white;
     border-style: groove;
-    border-color: #002e5f;
+    border-color: #4682b4;
     font-size: 1.5rem;
     cursor: pointer;
     height: 3.5rem;
@@ -92,7 +92,7 @@ body{
     letter-spacing: .1rem;
     opacity: .9;
     color: white;
-    background: #00bfff;
+    background: #4682b4;
 }
 
 .header{
@@ -132,7 +132,7 @@ body{
 }
 
 .header .navbar ul li a:hover{
-    color: #00bfff;
+    color: #4682b4;
     text-decoration: underline;
 }
 
@@ -150,7 +150,7 @@ body{
 .home{
     min-height: 100vh;
     width: 100vw;
-    background-image: url(../images/img1.jpg);
+    background-image: url(../images/bg-1.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -601,11 +601,11 @@ body{
 }
 
 .team .heading{
-    color: #00bfff;
+    color: #4682b4;
 }
 
 .team .heading::before, .team .heading::after{
-    border-color: #00bfff;
+    border-color: #4682b4;
 }
 
 .team .row{
@@ -654,7 +654,7 @@ body{
 
 .team .row .card .info span{
     font-size: 1.8rem;
-    color: #00bfff;
+    color: #4682b4;
 }
 
 .team .row .card .info .icons a{
@@ -697,7 +697,7 @@ body{
 }
 
 .team .row .card::before{
-    background: #00bfff;
+    background: #4682b4;
     top: -3rem;
     right: -4rem;
 }
@@ -843,11 +843,11 @@ body{
         .footer {
             position: relative;
             padding: 0 0 30px 0;
-            background: #333;
+            background: #090909;
         }
         
         .footer .footer-top {
-            background: #002e5f;
+            background:#2c3e50;
             padding: 60px 0 30px 0;
         }
         
@@ -862,7 +862,7 @@ body{
             font-size: 18px;
             display: inline-block;
             background: #ffffff;
-            color: #00bfff;
+            color: #4682b4;
             line-height: 1;
             padding: 9px 0;
             margin-right: 4px;
@@ -873,7 +873,7 @@ body{
         }
         
         .footer .footer-top .social-links a:hover {
-            background: #00bfff;
+            background: #4682b4;
             color: #ffffff;
         }
         
@@ -925,7 +925,7 @@ body{
         }
         
         .footer .footer-top .footer-links ul a:hover {
-            color: #00bfff;
+            color: #4682b4;
         }
         
         .footer .footer-top .footer-contact p {
@@ -955,8 +955,8 @@ body{
         
         .footer .footer-top .footer-newsletter input[type="submit"]:hover {
             color: #ffffff;
-            background: #00bfff;
-            border: 1px solid #00bfff;
+            background: #4682b4;
+            border: 1px solid #4682b4;
             letter-spacing: .2rem;
         }
         
@@ -984,7 +984,7 @@ body{
         .back-to-top {
             position: fixed;
             display: none;
-            background-color: #00bfff;
+            background-color: #4682b4;
             color: #ffffff;
             width: 45px;
             height: 45px;
@@ -1033,7 +1033,7 @@ body{
         }
         
         .faq .row .accordion-container .accordion .accordion-header{
-            background-color: #00bfff;
+            background-color: #4682b4;
             margin: 1rem 0;
             box-shadow: .1rem .1rem .3rem rgba(0,0,0,.3);
             cursor: pointer;
@@ -1098,7 +1098,7 @@ body{
     }
 
     .header .fa-bars:hover{
-        color: #00bfff;
+        color: #4682b4;
     }
 
     .header .navbar{
